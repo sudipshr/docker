@@ -1,0 +1,30 @@
+sudo yum update -y
+sudo yum install -y docker
+sudo service docker start
+sudo usermod -a -G docker ec2-user
+start new session for usermod to take effect
+docker info
+docker images --filter reference=hell*
+docker build -t hello-world .
+
+
+
+
+docker ps
+docker kill 7b63f36a76f2
+docker exec -it angry_stonebraker bash
+
+
+
+docker volume create MyVol
+docker volumne inspect MyVol
+docker volume inspect MyVol
+docker run -d -v MyVol:/export/apps/ hellwithfs
+
+#persisting container data
+
+
+docker run -d --cpus=1 fnm:4.5
+
+
+

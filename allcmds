@@ -1,0 +1,71 @@
+    1  cd centos/
+    2  ls
+    3  docker search -f centos
+    4  docker images search -f centos
+    5  docker images -f centos
+    6  vi Dockerfile 
+    7  docker images
+    8  docker build -t hellfromcentos
+    9  docker build -t hellfromcentos .
+   10  vi Dockerfile 
+   11  docker build -t hellfromcentos .
+   12  vi Dockerfile 
+   13  docker build -t hellfromcentos .
+   14  vi Dockerfile 
+   15  docker build -t hellfromcentos .
+   16  vi run-httpd.sh
+   17  docker build -t hellfromcentos .
+   18  docker images
+   19  docker run -p 8080:80 hellfromcentos
+   20  docker info
+   21  touch Dockerfile
+   22  vi Dockerfile 
+   23  cat Dockerfile 
+   24  docker build -t helloworld .
+   25  docker images
+   26  cat Dockerfile 
+   27  mkdir centos
+   28  cd centos/
+   29  cp ../Dockerfile .
+   30  vi Dockerfile 
+   31  docker run -p 80:80 hello-world
+   32  curl localhost
+   33  hostname
+   34  curl -wget ip-172-31-1-105
+   35  docker-machine ip machine-name
+   36  docker images
+   37  docker run -p 80:80 helloworld
+   38  history > cmds
+   39  vi cmds 
+   40  docker ps
+   41  cd ../
+   42  vi Dockerfile 
+   43  docker run -p 80:80 helloworld
+   44  docker container
+   45  docker container ls
+   46  which docker
+   47  sudo yum update -y
+   48  sudo yum install -y docker
+   49  sudo usermod -a -G docker ec2-user
+   50  docker info
+   51  sudo service docker start
+   52  docker info
+   53  sudo usermod -a -G docker ec2-user
+   54  docker info
+   55  histor
+   56  history
+   57  cat Dockerfile 
+   58  docker ps
+   59  history
+   60  history > allcmds
+
+docker kill $(docker ps -q)
+43a95d43b8f0c03423aea278df1e89b6ee8fbd3da3e07753253ab4f5a28d79df
+  162  ls
+  130  docker run -d -p 81:80 helloworld
+  131  docker run -d -p 82:80 helloworld
+  132  docker run -d -p 8080:80 hellfromcentos
+  133  docker run -d -p 8081:80 hellfromcentos
+  134  docker run -d -p 8082:80 hellfromcentos
+  135  docker run -d -p 8083:80 hellfromcentos
+

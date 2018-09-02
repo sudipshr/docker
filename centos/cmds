@@ -1,0 +1,17 @@
+    1  docker info
+    2  touch Dockerfile
+    3  vi Dockerfile 
+    4  cat Dockerfile 
+    5  docker build -t helloworld .
+    6  docker images
+    7  cat Dockerfile 
+    8  mkdir centos
+    9  cd centos/
+   10  cp ../Dockerfile .
+   11  vi Dockerfile 
+   12  docker run -p 80:80 hello-world
+   13  curl localhost
+   14  hostname
+   17  docker images
+   18  docker run -p 80:80 helloworld
+   19  history > cmds
